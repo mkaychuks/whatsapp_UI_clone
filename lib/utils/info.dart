@@ -101,19 +101,9 @@ const messages = [
     "text": "Looks great to me!",
     "time": "11:15 am",
   },
-  
-
   {"isMe": false, "text": "Thanks bro!", "time": "11:17 am"},
-  {
-    "isMe": false,
-    "text": "Did you subscribe?",
-    "time": "11:16 am"
-  },
-  {
-    "isMe": true,
-    "text": "Yes, surely bro!",
-    "time": "11:17 am"
-  },
+  {"isMe": false, "text": "Did you subscribe?", "time": "11:16 am"},
+  {"isMe": true, "text": "Yes, surely bro!", "time": "11:17 am"},
   {
     "isMe": false,
     "text": "Cool, did you like the content?",
@@ -128,5 +118,32 @@ const messages = [
     "isMe": false,
     "text": "OMG! Woah! Thanks!",
     "time": "11:20 am",
+  },
+];
+
+const calls = [
+  {
+    'name': 'Bro Sam',
+    'profilePic':
+        'https://upload.wikimedia.org/wikipedia/commons/8/85/Elon_Musk_Royal_Society_%28crop1%29.jpg',
+    'time': 'Today 10:45am',
+  },
+  {
+    'name': 'Chibombom',
+    'profilePic':
+        'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60',
+    'time': 'Today 1:53 pm',
+  },
+  {
+    'name': 'Mum',
+    'profilePic':
+        'https://images.unsplash.com/photo-1619194617062-5a61b9c6a049?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60',
+    'time': 'Yesterday 10:05 am',
+  },
+  {
+    'name': 'viktor',
+    'profilePic':
+        'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60',
+    'time': 'Yesterday 3:53 pm',
   },
 ];
