@@ -23,7 +23,7 @@ class ContactListItem extends StatelessWidget {
           style: const TextStyle(fontSize: 15),
         ),
         subtitle: Padding(
-          padding: const EdgeInsets.only(top: 6),
+          padding: const EdgeInsets.only(top: 4),
           child: Text(
             chatSubtitle,
             style: const TextStyle(fontSize: 15),
