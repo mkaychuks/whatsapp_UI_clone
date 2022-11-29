@@ -1,20 +1,20 @@
 const info = [
   {
-    'name': 'Rivaan Ranawat',
+    'name': 'Bro Sam',
     'message': 'Hey, how are you doing?',
     'time': '3:53 pm',
     'profilePic':
         'https://upload.wikimedia.org/wikipedia/commons/8/85/Elon_Musk_Royal_Society_%28crop1%29.jpg',
   },
   {
-    'name': 'John Doe',
+    'name': 'Meraye',
     'message': 'Hello, whats up',
     'time': '2:25 pm',
     'profilePic':
         'https://www.socialketchup.in/wp-content/uploads/2020/05/fi-vill-JOHN-DOE.jpg',
   },
   {
-    'name': 'Naman Ranawat',
+    'name': 'Mi amor',
     'message': 'Hello, I want to sleep.',
     'time': '1:03 pm',
     'profilePic':
@@ -35,14 +35,14 @@ const info = [
         'https://uploads.dailydot.com/2018/10/olli-the-polite-cat.jpg?auto=compress%2Cformat&ixlib=php-3.3.0',
   },
   {
-    'name': 'Jurica',
+    'name': 'Charemon',
     'message': 'Yo!!!!! Long time, no see!?',
     'time': '9:53 am',
     'profilePic':
         'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60',
   },
   {
-    'name': 'Albert Dera',
+    'name': 'Mmeso',
     'message': 'Am I fat?',
     'time': '7:25 am',
     'profilePic':
@@ -56,7 +56,7 @@ const info = [
         'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60',
   },
   {
-    'name': 'Sikandar',
+    'name': 'Deevine',
     'message': 'Lets Code!',
     'time': '4:56 am',
     'profilePic':
