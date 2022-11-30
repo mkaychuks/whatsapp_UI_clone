@@ -12,7 +12,13 @@ class ContactListScreen extends StatelessWidget {
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         backgroundColor: appBarColor,
-        child: const Icon(Icons.message, color: Colors.white,),
+        child: const RotatedBox(
+          quarterTurns: 2,
+          child: Icon(
+            Icons.message_rounded,
+            color: Colors.white,
+          ),
+        ),
       ),
       body: Padding(
         padding: const EdgeInsets.only(top: 8.0),

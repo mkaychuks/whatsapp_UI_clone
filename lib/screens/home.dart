@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:whatsapp_ui_clone/screens/calls_screen.dart';
 import 'package:whatsapp_ui_clone/screens/contact_list_screen.dart';
+import 'package:whatsapp_ui_clone/screens/status_screen.dart';
 import 'package:whatsapp_ui_clone/utils/colors.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -14,7 +15,7 @@ class _HomeScreenState extends State<HomeScreen> {
   final List<Widget> _widgetsScreens = const [
     Text('community'),
     ContactListScreen(),
-    Center(child: Text('WIP', style: TextStyle(fontSize: 40),),),
+    StatusScreenPage(),
     CallsScreenPage()
   ];
 
