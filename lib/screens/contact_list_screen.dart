@@ -12,48 +12,36 @@ class ContactListScreen extends StatelessWidget {
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         backgroundColor: appBarColor,
-        child: const RotatedBox(
-          quarterTurns: 2,
-          child: Icon(
-            Icons.message_rounded,
-            color: Colors.white,
-          ),
+        child: const Icon(
+          Icons.comment,
+          color: Colors.white,
         ),
       ),
       body: Padding(
         padding: const EdgeInsets.only(top: 8.0),
-        child: Column(
-          children: [
-            Expanded(
-              child: ListView.builder(
-                shrinkWrap: true,
-                itemCount: info.length,
-                itemBuilder: (context, index) {
-                  return ContactListItem(
+        child: Expanded(
+          child: ListView.builder(
+            shrinkWrap: true,
+            itemCount: info.length,
+            itemBuilder: (context, index) {
+              return Column(
+                children: [
+                  ContactListItem(
                     chatTitle: info[index]['name'].toString(),
                     chatSubtitle: info[index]['message'].toString(),
                     trailingTime: info[index]['time'].toString(),
                     contactImage: info[index]['profilePic'].toString(),
-                  );
-                },
-              ),
-            ),
-            const Divider(
-              color: dividerColor,
-              indent: 85,
-            )
-          ],
+                  ),
+                  const Divider(
+                    color: dividerColor,
+                    indent: 85,
+                  ),
+                ],
+              );
+            },
+          ),
         ),
       ),
     );
   }
 }
-
-
-
-// const ContactListItem(
-//             chatSubtitle: "Pop quiz",
-//             chatTitle: "Raye",
-//             contactImage: "A",
-//             trailingTime: '12.00pm',
-//           ),
